@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#memes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.meme {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.meme img {
+  max-width: 100%;
+  height: auto;
+}
